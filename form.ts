@@ -102,7 +102,7 @@ document
         };
 
         localStorage.setItem("resumeData", JSON.stringify(resumeData));
-        window.location.href = "../Resume/resume.html";
+        window.location.href = "/Resume/resume.html";
       };
       reader.readAsDataURL(imageFile);
     } else {
@@ -125,6 +125,6 @@ document
         image: "",
       };
       localStorage.setItem("resumeData", JSON.stringify(resumeData));
-      window.location.href = "../Resume/resume.html";
+      window.location.href = "/Resume/resume.html";
     }
   });
